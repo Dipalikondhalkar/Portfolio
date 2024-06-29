@@ -1,0 +1,380 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    line-height: 1.5;
+    /* font-family: 'Francois One', sans-serif; */
+    font-family: 'Playfair', serif;
+   color: white; 
+}
+.mainscetion
+{
+    background-color: black; 
+    height: 100%;
+}
+ul a{
+   list-style-type: none; 
+}
+.about
+{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 0rem 2rem 0 rgba(0, 0, 0, 0.196);
+} 
+.skills
+{
+  margin: 0 auto;
+  justify-content: space-around;
+} 
+.skill1
+{
+  border-radius: 25px;
+  border: 1px solid  rgb(57, 56, 56);
+  background-color: rgb(57, 56, 56);
+  margin-top: 30px;
+  box-shadow: 0 0rem 2rem 0 rgb(57, 56, 56);
+}
+.sk
+{
+   width: 90%;
+  margin: 0 auto;
+} 
+.line{
+  border-bottom: 3px solid red;
+  margin: 0 auto;
+}
+.line_A
+{
+ width: 37%;  
+}
+.line_E
+{
+  width: 37%; 
+}
+.line_S
+{
+  width: 25%; 
+}
+.line_P
+{
+  width: 35%;
+}
+.line_C
+{
+  width: 50%;
+}
+.front
+{
+ margin-left: 30px;
+}
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.timeline-component {
+  margin: 0px 20px 20px 20px;
+}
+.mainnav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #575555;
+  z-index: 100;
+  
+}
+.accordioncolor
+{
+  background-color: rgb(57, 56, 56); 
+}
+.pro
+{
+   padding-top: 150px; 
+}
+.hello
+{
+  font-size: 31px;
+}
+.about_size
+{
+  margin-top: 50px;
+}
+.name
+{
+  color: red;
+}
+.icon
+{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin:0 auto 20px;
+
+}
+.iconcolor
+{
+  color: red;
+}
+.skill1:hover{
+  .icon{
+    background-color: #E94057;
+    
+  }
+  .iconcolor
+  {
+    color: white;
+  }
+}
+
+h3.my-profession{
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.typing{
+  color:red;
+  font-size: 30px;
+}
+.b1
+{
+  margin-top: 30px;
+}
+.navcolor
+{
+  color: white;
+}
+.navcolor:hover
+{
+  color:red;
+  border-bottom: 2px solid red;
+}
+.h_size
+{
+  width: 42px;
+}
+.h_size1
+{
+  width: 70px;
+}
+.h_size2
+{
+  width: 33px;
+}
+.h_size4
+{
+  width: 54px;
+}
+.pro_size
+{
+  margin-top: 100px;
+}
+.temp
+{
+    width: 100%;
+  height: 250px; 
+   background-position: center;
+ background-size: cover;
+  border: 2px solid red;
+  margin: 0 auto;  
+ }  
+.temp1
+{ 
+  background-image: url(../image/background/img1.jpg); 
+}
+.temp2
+{
+  background-image: url(../image/background/img2.jpg);
+}
+.temp3
+{
+  background-image: url(../image/background/img3.jpg);
+}
+.temp4
+{
+  background-image: url(../image/background/img4.jpg);
+}
+.temp5
+{
+  background-image: url(../image/background/img5.jpg);
+}
+.temp6
+{
+  background-image: url(../image/background/img6.jpg);
+}
+.temp7
+{
+  background-image: url(../image/background/img7.jpg);
+}
+.temp8
+{
+  background-image: url(../image/background/img8.jpg);
+}
+ul li{
+  list-style-type: none;
+}
+.b2
+{
+  margin-top: 30px;
+
+}
+.project
+{
+  margin: 0 auto; 
+}
+.porject-item {
+	transition: all 0.5s ease-out;
+}
+.porject-item:hover {
+	transform: scale(1.1);
+}
+.profile
+{
+  border-radius: 10%;
+  border: 2px solid red;
+  padding: 3px;
+}
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 2px 1fr;
+  }
+  .timeline-middle {
+    position: relative;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    width: 3px;
+    height: 100%;
+  }
+  .timeline-circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+.skill1
+{
+  width: 45%;
+}
+
+.detail{
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+.logo
+{
+  width: 25%;
+}
+.line{
+  width: 15%;
+}
+.email
+{
+  margin-left: 30px;
+}
+.logo_list
+{
+  width: 75%;
+}
+.f_size
+{
+  font-size: 19px;
+}
+.about_size
+{
+  margin-top: 140px;
+}
+.pro
+{
+   padding-top: 200px; 
+}
+.pro2
+{
+  padding-top: 50px; 
+}
+.b1
+{
+  margin-top: 50px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.pro1
+{
+   padding-top: 130px; 
+}
+.data
+{
+  width: 45%;
+}
+.subject
+{
+  width: 95%;
+  margin: 0 auto;
+}
+.line_A1
+{
+ width: 17%;  
+}
+
+.line_S
+{
+  width: 12%; 
+}
+.line_C
+{
+  width: 23%;
+}
+.pro_p
+{
+  padding-top: 100px; 
+}
+}
+
+@media screen and (min-width: 992px)
+{
+  .skill1
+  {
+    width: 30%;
+  }
+  .b1
+{
+  margin-top: 80px;
+}
+  .pro
+  {
+     padding-top: 270px; 
+  }
+  .info{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.front
+{
+ margin-left: 80px;
+}
+.subject
+{
+  width: 81%;
+  margin: 0 auto;
+}
+.email
+{
+  margin-left:100px; 
+}
+.line{
+  width: 13%;
+}
+.line_S
+{
+  width: 10%; 
+}
+}
